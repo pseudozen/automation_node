@@ -249,6 +249,7 @@
 <text x="38.1" y="22.86" size="1.27" layer="21" rot="R270" align="center-right">GND</text>
 <text x="48.26" y="22.86" size="1.27" layer="21" rot="R270" align="center-right">RX</text>
 <text x="45.72" y="22.86" size="1.27" layer="21" rot="R270" align="center-right">TX</text>
+<text x="40.64" y="22.86" size="1.27" layer="21" rot="R270" align="center-right">GPIO0</text>
 </plain>
 <libraries>
 <library name="VanEagleLib" urn="urn:adsk.eagle:library:5408729">
@@ -2812,6 +2813,10 @@ design rules under a new name.</description>
 <wire x1="41.91" y1="10.16" x2="58.42" y2="10.16" width="0.3048" layer="1"/>
 <wire x1="58.42" y1="10.16" x2="59.77" y2="11.51" width="0.3048" layer="1"/>
 <wire x1="59.77" y1="11.51" x2="59.77" y2="12.59" width="0.3048" layer="1"/>
+<contactref element="JP7" pad="2"/>
+<wire x1="40.64" y1="11.43" x2="41.91" y2="10.16" width="0.3048" layer="16"/>
+<via x="41.91" y="10.16" extent="1-16" drill="0.7"/>
+<wire x1="40.64" y1="20.32" x2="40.64" y2="11.43" width="0.3048" layer="16"/>
 </signal>
 <signal name="RFM69_IRQ">
 <contactref element="U3" pad="14"/>

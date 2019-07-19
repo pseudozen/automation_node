@@ -10123,6 +10123,11 @@ LED Strip</text>
 <pinref part="JP6" gate="A" pin="14"/>
 <wire x1="231.14" y1="58.42" x2="264.16" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP7" gate="A" pin="2"/>
+<wire x1="114.3" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
+<label x="101.6" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RFM69_IRQ" class="0">
 <segment>
